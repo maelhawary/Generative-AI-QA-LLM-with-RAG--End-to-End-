@@ -1,6 +1,6 @@
 # Generative-AI-Question-Answering-End-to-End-LLM-Project
 
-This LLM project is based on google-flan-t5-base (https://huggingface.co/google/flan-t5-base) and it is utilized for answering questions given any document context. By running the App, you can upload any Pdf document then getting a reply for any question that is related to your document. I utilized the following packages: LangChain , FAISS, HuggingFace, Docker, AWS EC2, GitHub action, and Streamlit.
+This LLM project is based on google-flan-t5-base (https://huggingface.co/google/flan-t5-base) and it is utilized for answering questions given any document context. By running the App, you can upload any pdf document then getting a reply for any question that is related to your document. I utilized the following packages: LangChain , FAISS, HuggingFace, Docker, AWS EC2, GitHub action, and Streamlit.
 
 # To use
 1. Lunch and connect your AWS EC2 instance, add the following context to the secrects actions: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_REGION
